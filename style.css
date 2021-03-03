@@ -1,0 +1,58 @@
+body {
+  background: url("images/fon.jpg");
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  background-size: cover;
+}
+
+.container_carousel {
+  padding-top: 56px;
+  margin: 0px auto;
+  width: 82%;
+}
+
+.nav_link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+
+  transition: color 0.1s linear;
+}
+
+/* playlist */
+
+.playlist {
+  color: white;
+  background: rgb(104, 17, 126);
+  border: 3px solid black;
+}
+
+.about_playlist {
+  color: white;
+  text-align: center;
+}
+
+/* footer_link_u */
+.footer_link_u {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 70px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.vk {
+  color: rgb(53, 132, 196);
+}
+
+.whatsapp {
+  color: rgb(45, 185, 87);
+}
